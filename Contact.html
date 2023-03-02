@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.Googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.Googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+     <link rel="stylesheet" href="./styles/component.css">  
+     <link rel="stylesheet" href="./styles/contact.css"> 
+    <title>Contact page</title>
+</head>
+
+<body>
+    
+<header>
+    <p class ="name">Thrift Store</p>
+
+    <nav>
+        <a href="index.html">Homepage</a>
+            <a href="Contact.html">Contact </a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="termsAndConditions.html">terms</a>
+          </nav>
+
+          <div class="profile">
+             <p>Sower</p>
+             <img src="./Alhaji.jpg" alt="" id="profile-picture">
+          </div>
+
+
+</header> 
+   
+    <main>
+        <form>
+            <label for="fullName">FullName</label><br>
+            <input type="text" id="FullName" name="fullname" placeholder="urchman"><br>
+
+            <label for="Phone">Phone Number</label><br>
+            <input type="tel" id="Phone" name="Phone"><br>
+
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="Location">Location</label><br>
+            <select name="Location" id="Location">
+               <option value="Asokoro">Asokoro</option>
+               <option value="Maitama">Maitama</option>
+               <option value="Area1">Area1</option>
+            </select><br>
+            
+            <label for="password">password</label><br>
+            <input type="password" id="password"><br>
+
+            <label for="Message">Message</label><br>
+            <textarea name="Message" id="" cols="30" rows="10"></textarea><br/>
+
+            <button>Send</button>
+        </form>
+    </main>
+    
+</body>
+
+</html>

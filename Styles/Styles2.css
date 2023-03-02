@@ -1,0 +1,19 @@
+#pic1{
+    width: 80px;
+    height: 100px;
+}
+
+#pic2{
+     border: 200%;
+     padding: 30px 30px;
+     margin-top: 10%;
+     display: flex;
+     box-shadow: 1px 3px 29px 1px;
+     width 80px;
+     height: 300px;
+     border-radius: 20px;
+     background-position: center;
+     justify-content: space-between;
+     padding-left: 100px;
+     padding-top: 100px;
+}
